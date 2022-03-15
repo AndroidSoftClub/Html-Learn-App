@@ -6,8 +6,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpagerrID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bID"/>
 
     <LinearLayout
+        android:id="@+id/bID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/ll_ed"

@@ -67,6 +67,11 @@ class IntroActivity : BaseAct() {
 
             binding = IntroThreeLayoutBinding.inflate(layoutInflater)
 
+            binding.nextID.setOnClickListener(View.OnClickListener {
+                startActivity(Intent(activity, LoginActivity::class.java))
+
+            })
+
             return binding.root
         }
     }
@@ -82,6 +87,10 @@ class IntroActivity : BaseAct() {
 
             binding = IntroOneLayoutBinding.inflate(layoutInflater)
 
+            binding.nextID.setOnClickListener(View.OnClickListener {
+                startActivity(Intent(activity, LoginActivity::class.java))
+
+            })
 
             return binding.root
         }
