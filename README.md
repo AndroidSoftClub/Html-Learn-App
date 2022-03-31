@@ -13,5 +13,5 @@ Html App Demo App That's Develope by me Portfolio purposes
 ![Test Question](https://user-images.githubusercontent.com/61049331/161109199-8d2b7d2c-d06a-4dbc-8ee8-f39e4d6fb13a.jpg)
 
 
-HTML LEarning App 
+HTML Learning App (XML + KOTLIN + ANDROID STUDIO + JAVA) 
 Html App  
